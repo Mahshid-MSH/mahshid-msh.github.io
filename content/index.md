@@ -1,6 +1,3 @@
----
-title: Welcome to Quartz
----
+Welcome to my digital garden. Here I share cybersecurity writeups, CTF solutions, and random notes from my learning journey.
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Start with [my first challenge](./challenge1) or browse the [[contents]].
