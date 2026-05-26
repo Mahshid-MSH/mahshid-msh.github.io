@@ -66,4 +66,4 @@ printf 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\xbe\xba\xfe\xca
 
 Now if we run the file again, and give it this last string, it will print the actual flag, saying that confidentail access is granted. 
 
-![alt](./assets/13.png)
+![alt](./assets/14.png)
