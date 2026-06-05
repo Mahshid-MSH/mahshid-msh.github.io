@@ -1,4 +1,5 @@
 [link of the binary file](assets/challenge4/exercise4.zip)
+
 **Goal:** Exploit the binary to read the content of `flag.txt`.
 
 ---

@@ -1,3 +1,5 @@
+ [link of the binary file](assets/challenge2/challenge2)
+
 **Goal:** Exploit a buffer overflow to bypass authentication checks, solve a hidden mathematical equation, and read the flag.
 ### 1. Initial Recon
 
