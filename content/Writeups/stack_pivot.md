@@ -72,7 +72,8 @@ This means the greatest number we can pass as the size argument is 257. However,
 
 ![alt](./assets/stack_pivot/13.png)
 
-![alt](./assets/stack_pivot/14|718.png)
+![alt](./assets/stack_pivot/14.png|718)
+
 ### 4. Crafting the Exploit (Stack Pivoting)
 
 Because we only have a 1-byte overflow, we cannot reach the saved Return Address (RIP) on the stack. We can only overwrite the Least Significant Byte (LSB) of the saved Base Pointer (RBP).
