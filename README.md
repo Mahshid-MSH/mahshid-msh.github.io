@@ -1,17 +1,19 @@
-# Quartz v4
+# Digital Security Arsenal
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> A living repository of cybersecurity methodologies, CTF walkthroughs, and hacking notes.
+> Built on [Quartz](https://quartz.jzhao.xyz/) with a terminal-green aesthetic.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+**Live site:** [mahshid-msh.github.io](https://mahshid-msh.github.io/)
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## What's Inside
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- **CTF Writeups** — TryHackMe, HackTheBox, and independent challenges
+- **Cheatsheets** — Quick reference guides for penetration testing and scripting
+- **Security Notes** — Tools, techniques, and methodologies
 
-## Sponsors
+## 🛠 Local Setup
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```bash
+npm install
+npm run docs    # Builds and serves locally at http://localhost:8080
+```
