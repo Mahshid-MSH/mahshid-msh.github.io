@@ -39,14 +39,19 @@ const config: QuartzConfig = {
           highlight: "rgba(13, 148, 136, 0.15)",
         },
         darkMode: {
-          light: "#0d1117",         // Deep slate background (prevents high-contrast eye burn)
-          lightgray: "#21262d",     // Very subtle borders that fade into the background
-          gray: "#484f58",          // Graph nodes and structural lines
-          darkgray: "#8b949e",      // Soft slate-gray body text for long-form reading
-          dark: "#c9d1d9",          // Crisp, muted white for headers to stand out cleanly
-          secondary: "#3fb950",     // Professional terminal green (distinct, readable, not blinding)
-          tertiary: "#2ea043",      // Deeper green for hover effects and visited nodes
-          highlight: "rgba(63, 185, 80, 0.15)", // Gentle green highlight for internal links
+          light: "#0d1117",         // Deep slate
+          lightgray: "#21262d",
+          gray: "#484f58",
+          darkgray: "#8b949e",
+          dark: "#c9d1d9",
+          secondary: "#3fb950",     // Terminal green (keep this!)
+          tertiary: "#2ea043",
+          highlight: "rgba(63, 185, 80, 0.15)",
+        },
+      typography: {
+          header: "IBM Plex Mono",      // Monospace header
+          body: "IBM Plex Mono",        // All monospace = hacker vibes
+          code: "IBM Plex Mono",
         },
       },
     },
