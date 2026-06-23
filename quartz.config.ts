@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "mahshid-msh.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -27,29 +27,27 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
-colors: {
-  lightMode: {
-    light: "#f8f9fa",         // Clean off-white
-    lightgray: "#e5e7eb",
-    gray: "#9ca3af",
-    darkgray: "#4b5563",
-    dark: "#1f2937",
-    secondary: "#0d9488",     // Muted teal for light mode readability
-    tertiary: "#0f766e",
-    highlight: "rgba(13, 148, 136, 0.15)",
-  },
-  darkMode: {
-    light: "#0d1117",         // Deep slate background (prevents high-contrast eye burn)
-    lightgray: "#21262d",     // Very subtle borders that fade into the background
-    gray: "#484f58",          // Graph nodes and structural lines
-    darkgray: "#8b949e",      // Soft slate-gray body text for long-form reading
-    dark: "#c9d1d9",          // Crisp, muted white for headers to stand out cleanly
-    secondary: "#3fb950",     // Professional terminal green (distinct, readable, not blinding)
-    tertiary: "#2ea043",      // Deeper green for hover effects and visited nodes
-    highlight: "rgba(63, 185, 80, 0.15)", // Gentle green highlight for internal links
-  },
-}
-
+      colors: {
+        lightMode: {
+          light: "#f8f9fa",         // Clean off-white
+          lightgray: "#e5e7eb",
+          gray: "#9ca3af",
+          darkgray: "#4b5563",
+          dark: "#1f2937",
+          secondary: "#0d9488",     // Muted teal for light mode readability
+          tertiary: "#0f766e",
+          highlight: "rgba(13, 148, 136, 0.15)",
+        },
+        darkMode: {
+          light: "#0d1117",         // Deep slate background (prevents high-contrast eye burn)
+          lightgray: "#21262d",     // Very subtle borders that fade into the background
+          gray: "#484f58",          // Graph nodes and structural lines
+          darkgray: "#8b949e",      // Soft slate-gray body text for long-form reading
+          dark: "#c9d1d9",          // Crisp, muted white for headers to stand out cleanly
+          secondary: "#3fb950",     // Professional terminal green (distinct, readable, not blinding)
+          tertiary: "#2ea043",      // Deeper green for hover effects and visited nodes
+          highlight: "rgba(63, 185, 80, 0.15)", // Gentle green highlight for internal links
+        },
       },
     },
   },
