@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Digital Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -27,29 +27,29 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
+colors: {
+  lightMode: {
+    light: "#f8f9fa",         // Clean off-white
+    lightgray: "#e5e7eb",
+    gray: "#9ca3af",
+    darkgray: "#4b5563",
+    dark: "#1f2937",
+    secondary: "#0d9488",     // Muted teal for light mode readability
+    tertiary: "#0f766e",
+    highlight: "rgba(13, 148, 136, 0.15)",
+  },
+  darkMode: {
+    light: "#0d1117",         // Deep slate background (prevents high-contrast eye burn)
+    lightgray: "#21262d",     // Very subtle borders that fade into the background
+    gray: "#484f58",          // Graph nodes and structural lines
+    darkgray: "#8b949e",      // Soft slate-gray body text for long-form reading
+    dark: "#c9d1d9",          // Crisp, muted white for headers to stand out cleanly
+    secondary: "#3fb950",     // Professional terminal green (distinct, readable, not blinding)
+    tertiary: "#2ea043",      // Deeper green for hover effects and visited nodes
+    highlight: "rgba(63, 185, 80, 0.15)", // Gentle green highlight for internal links
+  },
+}
+
       },
     },
   },
