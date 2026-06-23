@@ -11,8 +11,6 @@ title: Welcome to digital-notes
 
 #### CTF Writeups
 Detailed walkthroughs, enumeration methodologies, and exploitation paths from various capture-the-flag challenges and practice boxes.
-* [[TryHackMe Walkthroughs]]
-* [[HackTheBox Walkthroughs]]
 * [[Independent CTFs]]
 
 
