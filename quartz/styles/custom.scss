@@ -1,3 +1,39 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+body[theme="dark"] {
+  background-image: radial-gradient(#1f242c 1px, transparent 0);
+  background-size: 24px 24px;
+  background-position: -19px -19px;
+}
+
+.callout {
+  border-left: 4px solid var(--secondary) !important;
+  background-color: rgba(88, 166, 255, 0.03) !important;
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.05);
+  border-radius: 6px;
+}
+
+// Style the code container to look like a terminal window
+div.highlight {
+  position: relative;
+  padding-top: 32px !important; // Make room for the window bar
+  border-radius: 8px;
+  border: 1px solid #21262d;
+  background-color: #0d1117 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+  // Inject the window title or a generic prompt indicators
+  &::before {
+    content: "● ● ●  bash";
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    font-family: var(--codeFont);
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff5f56; // First dot color
+    letter-spacing: 2px;
+    // Use text-shadow to draw the amber and green dots without extra HTML nodes
+    text-shadow: 16px 0 0 #ffbd2e, 32px 0 0 #27c93f, 52px 0 0 rgba(139, 148, 158, 0.6); 
+  }
+}

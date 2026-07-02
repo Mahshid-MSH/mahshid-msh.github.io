@@ -15,8 +15,8 @@ Detailed walkthroughs, enumeration methodologies, and exploitation paths from va
 
 
 #### Cheatsheets
-Quick-reference guides, programming syntax, and AI algorithms designed for rapid retrieval during coding and research.
-* [[Language Syntax Cheatsheets]]
+Quick-reference guides and AI algorithms designed for rapid retrieval during coding and research.
+
 * [[AI & Machine Learning Algorithms]]
 
 
@@ -25,9 +25,6 @@ Quick-reference guides, programming syntax, and AI algorithms designed for rapid
 ### About This Space
 
 I built this digital garden to embrace the concept of learning in public and to build a centralized repository for my cybersecurity studies. Documenting challenges and synthesizing notes helps solidify my technical understanding while creating a resource I can rely on for future exercises.
-
-> [!tip] Navigation
-> Use the interactive graph view or click on any `[[bracketed link]]` to explore connected notes and concepts.
 
 ---
 *Tags:* #cybersecurity #infosec #ctf #notes #cheatsheets

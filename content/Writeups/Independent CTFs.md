@@ -1,8 +1,9 @@
 
 Here are my writeups for independent challenges:
-* [[Writeups/Challenge1]]
-* [[Writeups/Challenge2]]
-* [[Writeups/Challenge4]]
+* [[Writeups/challenge_1]]
+* [[Writeups/challenge_2]]
+* [[Writeups/challenge_3]]
 * [[Writeups/format_string1]]
 * [[Writeups/stack_pivot]]
-* [[Writeups/Binary Patching]]
+* [[Writeups/binary_patching]]
+* [[Writeups/unpack_challenge]]
